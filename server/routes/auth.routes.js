@@ -28,7 +28,7 @@ router.post('/registration',
                     message: `User with email ${email} already exist`
                 })
             }
-            const hashPassword = await bcrypt.hash(password, 15)
+            const hashPassword = await bcrypt.hash(password, 8) //Степень хеширования пароля влияет на скорость
             const user = new User({ email, password: hashPassword })
             await user.save()
             return res.json({ message: "User was created" })
