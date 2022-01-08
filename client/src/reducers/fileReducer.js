@@ -3,9 +3,9 @@ const defaultState = {
     isAuth: false
 }
 
-export default function userReducer(state = defaultState, action) {
+export default function fileReducer(state = defaultState, action) {
     switch (action.type) {
         default:
-            return -state
+            return state
     }
 }
