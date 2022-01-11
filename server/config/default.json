@@ -1,5 +1,6 @@
 {
     "serverPort" : 5000,
     "dbUrl": "mongodb+srv://cross1234:cross1234@cloud.p9zrz.mongodb.net/cloud?retryWrites=true&w=majority",
-    "secretKey": "mern-secret-key"
+    "secretKey": "mern-secret-key",
+    "filePath": "C:\\Projects\\js\\MERN-CloudStorage\\server\\files"
 }
